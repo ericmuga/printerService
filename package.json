@@ -1,0 +1,31 @@
+{
+  "name": "printerservice",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "service to print documents from a folder to a specified printer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericmuga/printerService.git"
+  },
+  "keywords": [
+    "printer",
+    "service"
+  ],
+  "author": "Eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericmuga/printerService/issues"
+  },
+  "homepage": "https://github.com/ericmuga/printerService#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pdf-lib": "^1.17.1",
+    "pdf-to-printer": "^5.6.0"
+  }
+}
